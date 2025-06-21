@@ -1,5 +1,6 @@
 # Xshell
 nohup spades.py	-1	data/pm1151_1.fq.gz	-2	data/pm1151_2.fq.gz	-o	spades --careful -t 24 -m 100 &
+quast.py -o quast/pm1151 spades/pm1151/contigs.fasta
 建立文件 mkdir
 rm -rf 删除目录和文件
 touch 创建新文件
